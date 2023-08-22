@@ -8,9 +8,7 @@ function App() {
     setTimeout(() => {
       document.getElementById('editor')?.focus();
       document.getElementById('editor')?.click();
-      console.log('detalle', document.getElementById('editor'));      
   }, 400);
-    console.log('heyyy');
   })
   return (
       <textarea id="editor" autoFocus></textarea>
